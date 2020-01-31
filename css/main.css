@@ -1,0 +1,36 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+#menu{
+	width: 250px;
+	height: 100vh;
+	background: #2ecc71;
+	position: fixed;
+	left: -230px;
+	top: 0;
+	transition: all ease 1s;
+}
+
+#menu li{
+	color: #fff;
+	line-height: 50px;
+	text-align: center;
+	font-size: 17px;
+}
+
+li:hover{
+	background: #4b0082;
+	opacity: 0.2;
+	transition: 2s;
+}
+
+
+/*#menu:hover{
+	width: 250px;
+	position: fixed;
+	left: 0;
+	transition: 1s;
+}*/
